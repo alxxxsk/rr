@@ -15,9 +15,11 @@ a {
 }
 
 .product {
-  width: 360px;
-  display: flex;
-  flex-direction: column;
+   background: #444;
+    position: absolute;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
 }
 .product_img {
   width: 100%;
@@ -275,3 +277,4 @@ top: 22px;
     right: 0;
     transition: right 0.3s;
 }
+
