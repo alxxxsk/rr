@@ -147,7 +147,6 @@ top: 22px;
 }
 
 .product{
-    background: #444;
     position: absolute;
     width: 360px;
    display: flex;
@@ -234,9 +233,12 @@ color: $colorSelectSite;
 }
 
 .product{
+     position: relative;
     width: 360px;
-    display: flex;
-    flex-direction: column;
+   display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
     &_img{
         width: 100%;
     }
@@ -270,6 +272,7 @@ color: $colorSelectSite;
         color: #f16d7f;
     }
 }
+
 
 
 
