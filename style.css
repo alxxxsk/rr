@@ -16,7 +16,7 @@ a {
 
 .product {
    background: #444;
-    position: absolute;
+    position: relative;
     width: 360px;
     display: flex;
     flex-direction: column;
@@ -277,4 +277,5 @@ top: 22px;
     right: 0;
     transition: right 0.3s;
 }
+
 
