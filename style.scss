@@ -31,22 +31,23 @@ a{
     
 }
 .filter{
-    padding-top: 13px;
+    padding: 12px 16px 16px;
     box-sizing: border-box;
     width: 360px;
-    top: 39px;
+    top: 12px;
     position: relative;
     z-index: 10;
     &[open] .filter__heading {
         color: $colorSelectSite;
     }
     &__content{
-        position: absolute;
+        position: relative;
         background-color: white;
         padding-top: 0;
         padding-right: 16px;
         padding-bottom: 16px;
         padding-left: 16px;
+        z-index: 10;
     }
     &[open] {
         background: white;
@@ -143,22 +144,18 @@ padding: 7px 30px 11px 9px;
 position: absolute;
 left: -9px;
 top: 22px;
+z-index: 10;
 }
-}
-
-.product{
-    position: absolute;
-    width: 900px;
-   display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
 }
 
 
 .product__box{
     @include centerflex();
     gap: $gapGrid;
+    position: relative;
+    display: flex;
+ flex-direction: row;
+
 }
 
 .header{
@@ -233,14 +230,17 @@ color: $colorSelectSite;
 }
 
 .product{
-     position: relative;
+    position: relative;
     width: 360px;
-   display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     &_img{
-        width: 100%;
+       width: 100%;
+      display: flex;
+    
+}
     }
     &_content{
     background-color: #f8f8f8;
@@ -271,11 +271,6 @@ flex-wrap: wrap;
         line-height: 19px;
         color: #f16d7f;
     }
-}
-
-
-
-
 
 
 
