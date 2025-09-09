@@ -149,6 +149,10 @@ top: 22px;
 .product{
     background: #444;
     position: relative;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .product__box{
@@ -264,5 +268,6 @@ color: $colorSelectSite;
         color: #f16d7f;
     }
 }
+
 
 
