@@ -16,7 +16,7 @@ a {
 
 .product {
     position: relative;
-    width: 360px;
+    width: 900px;
    display: flex;
 justify-content: center;
 align-items: center;
@@ -278,6 +278,7 @@ top: 22px;
     right: 0;
     transition: right 0.3s;
 }
+
 
 
 
