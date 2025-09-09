@@ -15,11 +15,12 @@ a {
 }
 
 .product {
-   background: #444;
     position: relative;
     width: 360px;
-    display: flex;
-    flex-direction: column;
+   display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 }
 .product_img {
   width: 100%;
@@ -277,5 +278,6 @@ top: 22px;
     right: 0;
     transition: right 0.3s;
 }
+
 
 
